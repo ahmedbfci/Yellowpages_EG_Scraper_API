@@ -1,0 +1,9 @@
+fastapi
+uvicorn
+motor
+pydantic
+cloudscraper
+beautifulsoup4
+fake-useragent
+requests
+python-dotenv
