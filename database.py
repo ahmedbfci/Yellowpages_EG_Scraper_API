@@ -19,9 +19,6 @@ DB_NAME = os.getenv('DB_NAME')
 logging.basicConfig(level=logging.INFO)
 logger = logging.getLogger(__name__)
 
-# MONGO_URI = "mongodb+srv://ahmedomarkaf:cn0sLOKuHHO3MwGT@cluster0.z3crq.mongodb.net/"
-# DB_NAME = "mydatabase"
-
 client = AsyncIOMotorClient(MONGO_URI)
 db = client[DB_NAME]
 responses_collection = db.responses
